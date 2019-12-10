@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>resume</title>
+	<style>
+		@import url("assets/css/indexcss.css")
+	</style>
+</head>
+<body>
+	<header>
+		<img src="img/me.jpg"/ class="me">
+		<div class="intro">我叫陳品孜,來自台北市北投區<br>喜歡跳舞,喜歡貓咪<br>生日:2000/01/21<br>目前就讀:中原大學資訊管理學系<br>電話:0988-859-431</div>
+		<a href="https://www.facebook.com/profile.php?id=100002016931565" target="_blank"><img src="img/fb.png"/ alt="我的fb" class="fb"></a>
+		<a href="https://www.instagram.com/__pintzu/?hl=zh-tw" target="_blank"><img src="img/ig.png"/ alt="我的ig" class="ig"></a>
+		<a href="https://github.com/pintzu?tab=repositories" target="_blank"><img src="img/github.png"/ alt="我的github" class="gh"></a>
+		<a href="mailto:tiffany859431@gmail.com"><img src="img/email.png"/ alt="我的email" class="em"></a>
+		<a href="https://pintzu.github.io/myweb/" target="_blank"><img src="img/intro.png"/ alt="個人網站" class="in"></a>
+	</header>
+	<div class="p1">
+		<h1>專業技能</h1>
+		<p>C#</p>
+		<div class="container">
+  		<div class="skills html">80%</div>
+		</div>
+
+		<p>Java</p>
+		<div class="container">
+  		<div class="skills css">80%</div>
+		</div>
+
+		<p>HTML</p>
+		<div class="container">
+  		<div class="skills js">70%</div>
+		</div>
+
+		<p>CSS</p>
+		<div class="container">
+  		<div class="skills php">75%</div>
+		</div>
+	</div>
+	<div class="p2">
+		<h1>課程活動</h1>
+		<div class="timeline">
+  		<div class="container2 left">
+    	<div class="content">
+      		<h2>大一上企業概論-蛋捲方舟</h2>
+      		<p>大一上最活潑的課程應該就是企業概論了,不僅學習到了如何和同學以及廠商溝通配合外
+      		,也幫助到了社會上需要幫助的人,是很有意義的一門課。</p>
+    	</div>
+  		</div>
+  		<img src="img/c1.png"/ class="c1">
+  		<a href="https://www.facebook.com/happy.fangzhou/" target="_blank"><img src="img/click.png"/ class="cc1"></a>
+  		<div class="container2 right">
+    	<div class="content">
+      		<h2>大一下管理學-愛資味好ㄘ</h2>
+      		<p>有了上學期的經驗後,已經比較知道如何跟要合作的單位溝通了,因為我們合作的單位是愛鄰舍,讓我更學習到了如何有耐心地面對小朋友,以及清楚的表達出我的想法讓小朋友知道。</p>
+    	</div>
+  		</div>
+  		<img src="img/c2.png"/ class="c2">
+  		<a href="https://www.facebook.com/tylyna.org/" target="_blank"><img src="img/click.png"/ class="cc2"></a>
+  		<div class="container2 left">
+    	<div class="content">
+      		<h2>大二上多媒體期中專案-介紹系女籃</h2>
+      		<p>升上大二後第一次接觸到網頁的前端作業,覺得很新奇但過程中也遇到了許多困難,也因為是第一次接觸所以不知道該怎麼解決,問了很多學長姊才得到解答,自己會做出一個網頁真的是充滿成就感。</p>
+    	</div>
+  		</div>
+  		<img src="img/c3.png"/ class="c3">
+		<a href="https://yuchendou.github.io/middledemo/" target="_blank"><img src="img/click.png"/ class="cc3"></a>
+		</div>
+	</div>
+	<div class="p3">
+		<h1>社團活動</h1>
+		<button class="accordion">2015-2016 糾察隊小隊員</button>
+		<div class="panel">
+  			<p>高一時參加了學校的糾察隊,每天都要很早到學校開始值勤,中午午休時間也不能休息要值勤,雖然真的蠻累的,但是從中學習到了紀律跟面對很兇的學生要怎麼跟他溝通。</p>
+		</div>
+		
+		<button class="accordion">2015-2017 熱舞社副社長</button>
+		<div class="panel">
+  			<p>加入熱舞社真的是我這輩子做過最棒的決定了,過程真的非常非常辛苦,常常練到身體心理都很累,但還是跟同伴們一起撐下去了,一群人朝著同個目標前進的感覺真的很好,加入熱舞社讓我平凡的高中生活變得跟別人有所不同。</p>
+		</div>
+		
+		<button class="accordion">2019-now 系學會活動股</button>
+		<div class="panel">
+  			<p>因為腳受傷後沒辦法繼續跳舞了所以選擇加入系學會,大家一起辦活動一起完成一件事很有成就感,學會如何在一群人面前說話而不緊張,也學到跟大家溝通配合的能力。</p>
+		</div>
+		<img src="img/s2.jpg"/ >
+		<img src="img/s1.JPG"/ >
+		<img src="img/s3.jpg"/ >
+		<img src="img/emoji.png"/ class="emo">
+	<script>
+		var acc = document.getElementsByClassName("accordion");
+		var i;
+
+		for (i = 0; i < acc.length; i++) {
+  			acc[i].addEventListener("click", function() {
+    			this.classList.toggle("active");
+    			var panel = this.nextElementSibling;
+    		if (panel.style.display === "block") {
+      			panel.style.display = "none";
+    		} else {
+      		panel.style.display = "block";
+    		}
+  			});
+		}
+	</script>
+
+	</div>
+
+</body>
+</html>
